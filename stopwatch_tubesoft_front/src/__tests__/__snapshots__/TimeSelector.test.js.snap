@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Time Selector Component should render correctly 1`] = `
+<Fragment>
+  <p
+    className="text-center mt-5 lead font-weight-bold"
+    data-testid="timer"
+  >
+    00 : 00 : 00
+  </p>
+  <Row
+    className="mb-4"
+    noGutters={false}
+  >
+    <Col
+      className="d-flex justify-content-around"
+    >
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="primary"
+      >
+        Start
+      </Button>
+      <Button
+        active={false}
+        disabled={false}
+        onClick={[Function]}
+        variant="primary"
+      >
+        Reset
+      </Button>
+    </Col>
+  </Row>
+</Fragment>
+`;
